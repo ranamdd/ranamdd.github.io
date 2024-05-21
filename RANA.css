@@ -1,0 +1,340 @@
+body {
+    text-align: center;
+    background-color: rgb(254, 229, 245)
+
+}
+@media screen and (max-width: 800px) {
+    img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+p {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+#main-h1{
+    text-decoration: none;
+    overflow: auto; 
+    margin-top: 3px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 2%;
+    background-color: #ffffff; 
+    color: #96156f; 
+    font-weight: bold; 
+    font-size: 400%;
+    text-align: center; 
+}
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    color:  #96156f;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+p{
+    font-size: large;
+}
+h4{
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+h4 a:hover{
+    background-color: rgb(221, 171, 220);
+}
+h4 a{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    color: #021825;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+img {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #021825;
+}
+.contents{
+    background-color: rgb(87, 0, 70);
+}
+.contents h1{
+    color: azure;
+}
+.contents ul{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contents li{
+    display: inline-block;
+    text-align: center;
+}
+.contents li a{
+    display: inline-block;
+    height: auto;
+    width: 150px;
+    color: #021825;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.contents li a:hover{
+    background-color: rgb(221, 171, 220);
+}
+
+.definition h2{
+    font-size: xx-large;
+    color: #c168bf;
+}
+
+
+.definition li{
+    display: inline-block;
+    height: auto;
+    width: 250px;
+    color: #ffffff;
+    background-color: #c168bf;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.types li{
+    display: inline-block;
+    height: auto;
+    width: 700px;
+    color: #021825;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+
+.incidence ul {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.incidence li {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.incidence h3{
+    display: inline-block;
+    height: auto;
+    width: 250px;
+    color: #c168bf;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 17px;
+
+}
+
+.causes h3{
+    font-size: xx-large;
+    color: #c168bf;
+}
+
+.causes li{
+    display: inline-block;
+    height: auto;
+    width: 270px;
+    color: #ffffff;
+    background-color: #c168bf;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.symptoms li{
+    display: inline-block;
+    height: auto;
+    width: 250px;
+    color: #ffffff;
+    background-color: #c168bf;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.discover h3{
+    background-color: #c168bf;
+    font-size: larger;
+    overflow: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.treatment li{
+    display: inline-block;
+    height: auto;
+    width: 250px;
+    color: #ffffff;
+    background-color: #c168bf;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.treatment h3{
+    font-size: xx-large;
+    color: #c168bf;
+}
+
+.earl h3{
+    font-size: x-large;
+    color: #c168bf;
+}
+
+.earl li{
+    display: inline-block;
+    height: auto;
+    width: 700px;
+    color: #021825;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+} 
+
+.future li{
+    display: inline-block;
+    height: auto;
+    width: 250px;
+    color: #ffffff;
+    background-color: #c168bf;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.future h3{
+    font-size: x-large;
+    color: #c168bf;    
+}
+
+.country h3{
+    background-color: #c168bf;
+    font-size: larger;
+    overflow: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.society h3{
+    font-size: x-large;
+    color: #c168bf;    
+}
+
+.making h3{
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    overflow: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.making p{
+    display: inline-block;
+    height: auto;
+    width: 150px;
+    color: #ffffff;
+    background-color: #c168bf;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.making li{
+    display: inline-block;
+    height: auto;
+    width: 150px;
+    color: #ffffff;
+    background-color: #c168bf;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.sources{
+    background-color: rgb(87, 0, 70);
+}
+.sources h1{
+    color: #ffffff;
+}
+.sources ul{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.sources li{
+    display: inline-block;
+    text-align: center;
+}
+.sources li a{
+    display: inline-block;
+    height: auto;
+    width: 260px;
+    color: #021825;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.sources li a:hover{
+    background-color: rgb(221, 171, 220);
+}
